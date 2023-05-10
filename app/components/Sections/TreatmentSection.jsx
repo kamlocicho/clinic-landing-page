@@ -19,9 +19,14 @@ const TreatmentSection = () => {
                 </Text>
 
                 <List color='#fff' stylePosition='initial'>
-                    <ImageText id='1'>Breast Surgery</ImageText>
-                    <ImageText id='2'>Breast Surgery</ImageText>
-                    <ImageText id='3'>Breast Surgery</ImageText>
+                    <ImageText id='01'>Breast Surgery</ImageText>
+                    <ImageText id='02'>Silhouette</ImageText>
+                    <ImageText id='03'>Face Surgery</ImageText>
+                    <ImageText id='04'>Injections</ImageText>
+                    <ImageText id='05'>Dermatology</ImageText>
+                    <ImageText id='06'>Laser & Cosmetics</ImageText>
+                    <ImageText id='07'>Aesthetic Medicine</ImageText>
+                    <ImageText id='08'>Beauty treatments</ImageText>
                 </List>
             </Box>
 

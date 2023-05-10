@@ -1,11 +1,13 @@
 "use client"
 
-import { Box, Text, VStack } from "@chakra-ui/react";
+import { Text, VStack } from "@chakra-ui/react";
 import Navbar from "./components/Navbar/Navbar";
 import Background from "./components/Background/Background";
 import MainHeading from "./components/Text/MainHeading";
 import CircleButton from "./components/Button/CircleButton";
 import TreatmentSection from "./components/Sections/TreatmentSection";
+import HomeContactSection from "./components/Sections/HomeContactSection";
+import HomeSurgerySection from "./components/Sections/HomeSurgerySection";
 
 export default function Home() {
   return (
@@ -27,21 +29,9 @@ export default function Home() {
 
         <TreatmentSection />
 
-        <Box w='100%' backgroundColor='rgba(255, 255, 255, .8)' >
-          <VStack paddingTop='8rem' w='100%' maxWidth='37.5rem' marginX='auto'>
-            <MainHeading fontSize='4rem'>Plastic Surgery,</MainHeading>
-            <MainHeading fontSize='4rem'>Cosmetic</MainHeading>
-            <MainHeading fontSize='4rem'>Treatments &</MainHeading>
-            <MainHeading fontSize='4rem'>Laser Therapy</MainHeading>
-            <MainHeading py='2rem' fontSize='4rem'>\</MainHeading>
+        <HomeContactSection />
 
-            <Text fontWeight={400} textAlign='center' color='#151515' paddingBottom='3rem'>
-              Since its conception, our clinic has always taken care to bring the best technology to treat our patients safely. Plastic Surgeon Dr. Xavier Tenorio regularly attends courses and conventions to be able to offer the treatments with best results.
-            </Text>
-
-            <CircleButton alignSelf='start'>Contact us</CircleButton>
-          </VStack>
-        </Box>
+        <HomeSurgerySection />
       </VStack>
     </>
   )

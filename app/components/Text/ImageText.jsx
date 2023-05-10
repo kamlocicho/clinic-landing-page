@@ -30,7 +30,7 @@ const ImageText = ({ children, imgSrc, id }) => {
                     {hover &&
                         <Breadcrumb
                             initial={{ opacity: 0 }}
-                            animate={{ opacity: 1 }}
+                            animate={{ opacity: .6 }}
                             exit={{ opacity: 0 }}
                             transitionDuration='.15s'
                             transitionTimingFunction='ease'
